@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.card {
+            position: relative;
+            width: 300; 
+            height: 200px; 
+            background-color: white; 
+            margin: 0 auto; 
+            overflow: hidden; 
+        	border: 1px solid #ced4da;
+        	cursor: pointer;
+        }
+.card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+        }
+.card-text {
+    font-size: 1rem; 
+    color: #6c757d; 
+    margin-bottom: 8px; 
+    display: flex;
+    margin-top: 15px;
+}
+
+.card-title{
+	color: #0080c0;
+}
+
+.card-text span {
+    color: #343a40; 
+    margin-left: 10px;
+}
+
+
+[data-bs-theme="dark"] h5.card-text span,
+[data-bs-theme="dark"] p.card-text span{
+    color: #c0c0c0;
+}
+
+[data-bs-theme="dark"] h5.card-text,
+[data-bs-theme="dark"] p.card-text{
+    color: #dee2e6;
+}

@@ -1,0 +1,11 @@
+Ref;Paquete;Aerolinea;Ruta;Cantidad;TipoAsiento
+PR01;PQ01;US09;RV02;1;Ejecutivo
+PR02;PQ01;US09;RV06;1;Ejecutivo
+PR04;PQ02;US01;RV04;3;Ejecutivo
+PR05;PQ03;US09;RV09;1;Turista
+PR06;PQ03;US09;RV02;1;Turista
+PR07;PQ03;US09;RV17;1;Turista
+PR08;PQ04;US05;RV11;2;Turista
+PR09;PQ04;US05;RV14;2;Ejecutivo
+PR10;PQ05;US09;RV02;4;Turista
+PR11;PQ05;US05;RV12;2;Ejecutivo

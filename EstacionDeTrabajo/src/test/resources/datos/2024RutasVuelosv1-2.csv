@@ -1,0 +1,36 @@
+Ref;Aerolinea;Nombre;Descripcion;Hora;CostoTurista;CostoEjecutivo;CostoEquipaje;Origen;Destino;FechaAlta;Categoria;Estado;DescripcionCorta;Imagen;Video;FechaFinalizada;Visitas
+
+RV01;US02;UX46;Tiempo de vuelo aproximado de 12 horas con comidas incluidas;12:20;450;950;50;CI01;CI08;19/08/2024;CA02, CA03;Ingresada;Montevideo - Madrid por Air Europa (UX46);RV01.jpeg;(Sin video);;2
+
+RV02;US09;IB6012;Tiempo de vuelo: cerca de 12 horas. Incluye comidas, bebidas y entretenimiento en vuelo;13:00;350;1800;60;CI01;CI08;22/08/2024;CA02, CA03, CA06;Confirmada;Montevideo - Madrid por Iberia (IB6012);RV02.jpeg;https://youtu.be/bpeF1YCiUe0?si=E5k3CZCD6YygWtEE;;1
+
+RV03;US01;AR1380;Tiempo de vuelo 1 hora, directo y sin escalas;07:55;120;340;30;CI04;CI01;09/08/2024;CA04, CA06;Confirmada;Buenos Aires - Montevideo por Aerolíneas Argentinas (AR1380);RV03.jpg;https://youtu.be/HBY4FSi1RHo?si=OQkyEwb1Dweso2pQ;;8
+
+RV04;US01;AR1381;Tiempo estimado de vuelo 55 minutos;09:35;160;400;30;CI01;CI04;09/08/2024;CA07, CA04;Confirmada;Montevideo - Buenos Aires por Aerolíneas Argentinas (AR1381);RV04.jpg;https://youtu.be/HBY4FSi1RHo?si=OQkyEwb1Dweso2pQ;;3
+
+RV05;US17;ZL1501;Viaje exclusivo en aviones pequeños, tiempo de vuelo 20 minutos;12:00;60;200;10;CI01;CI07;11/08/2024;CA05;Finalizada;Montevideo - Punta del Este por Zulu Fly (ZL1501);RV05.jpg;(Sin video);11/11/2024;1
+
+RV06;US09;IB6011;Ruta directa con tiempo aproximado de vuelo de 11 horas;00:10;400;1000;60;CI08;CI01;28/08/2024;CA06, CA03;Confirmada;Madrid - Montevideo por Iberia (IB6011);RV06.jpg;(Sin video);;7
+
+RV07;US02;UX45;Ideal para quienes buscan una experiencia de vuelo sin complicaciones, con todos los servicios necesarios para un trayecto largo.;23:55;450;950;50;CI08;CI01;25/08/2024;CA03, CA02;Confirmada;Madrid - Montevideo por Air Europa (UX45);RV07.jpg;(Sin video);;4
+
+RV08;US12;LA406;Tiempo de vuelo: alrededor de 2 horas y 30 minutos. Ofrece vuelos directos con servicio de bebidas y snacks a bordo Ideal para un viaje rápido y cómodo entre las dos ciudades.;12:31;100;500;50;CI06;CI01;30/07/2024;CA04, CA06;Ingresada;Santiago de Chile - Montevideo por LATAM Airlines (LA406);RV08.jpg;(Sin video);;1
+
+RV09;US09;IB34;Tiempo de vuelo: aproximadamente 1 hora y 20 minutos. Ofrece vuelos directos con servicio de bebidas y snacks a bordo. Ideal para un viaje rápido y eficiente entre las dos principales ciudades españolas.;07:05;170;400;20;CI08;CI05;16/08/2024;CA01, CA07;Confirmada;Madrid - Barcelona por Iberia (IB34);RV09.jpeg;https://youtu.be/OUkl-3PkMw4?si=x-VQ5OxLjwLX0wdb;;7
+
+RV10;US02;UX1515;Tiempo de vuelo: aproximadamente 2 horas y 30 minutos. Ofrece vuelos directos con servicio de bebidas y snacks a bordo, además de entretenimiento para hacer tu viaje más placentero. Ideal para un traslado rápido y cómodo entre las dos ciudades europeas;07:10;50;250;60;CI08;CI02;22/08/2024;CA03, CA07;Rechazada;Madrid - Múnich por Air Europa (UX1515);RV10.jpg;https://youtu.be/nH9xPwfhueo?si=bWc79j1X5jksvUuo;;2
+
+RV11;US05;CM284;Tiempo de vuelo: aproximadamente 7 horas. Copa Airlines ofrece comidas, bebidas y entretenimiento a bordo para un viaje cómodo y agradable. Ideal para quienes buscan una conexión eficiente entre Sudamérica y Centroamérica;00:30;350;1800;60;CI01;CI03;20/07/2024;CA04;Confirmada;Montevideo - Ciudad de Panamá por Copa Airlines (CM284);RV11.jpg;(Sin video);;9
+
+RV12;US05;CM804;Copa Airlines ofrece comidas, bebidas y entretenimiento a bordo, asegurando una experiencia de viaje cómoda y agradable entre Centroamérica y la ciudad de Nueva York.;18:33;400;1000;15;CI03;CI09;27/08/2024;CA04, CA02;Confirmada;Ciudad de Panamá - Nueva York por Copa Airlines (CM804);RV12.jpg;https://youtu.be/-gOq2NNFXbA?si=lZH-dytsLPA5vhVc;;4
+
+RV13;US12;LA533;LATAM ofrece comidas, bebidas y entretenimiento a bordo para un viaje cómodo y placentero entre Estados Unidos y Chile.;20:05;600;1600;40;CI09;CI06;28/08/2024;CA02, CA06, CA04;Rechazada;Nueva York - Santiago de Chile por LATAM Airlines (LA533);RV13.jpg;(Sin video);;10
+
+RV14;US05;CM283;Elvuelo tiene una duración aproximada de 7 horas. Ofrece comidas, bebidas y entretenimiento a bordo para una experiencia de viaje cómoda y agradable;15:43;500;1700;60;CI03;CI01;14/07/2024;CA02, CA04;Confirmada;Ciudad de Panamá - Montevideo por Copa Airlines (CM283);(Sin Imagen);https://youtu.be/6vUHyM26E3A?si=H9D56SyAZIo0EkYR;;0
+
+RV15;US12;LA407;El vuelo incluye bebidas y snacks a bordo, con una duración aproximada de 2 horas y 30 minutos, ofreciendo una experiencia cómoda entre las dos ciudades sudamericanas;19:40;150;500;50;CI01;CI06;02/08/2024;CA06;Ingresada;Montevideo - Santiago de Chile por LATAM Airlines (LA407);RV15.jpg;https://youtu.be/TzD46EJXgdM?si=eqYxFzqamdU6BcL1;;0
+
+RV16;US17;ZL1502;Tiempo estimado de vuelo 2 horas y 30 minutos, vuelo directo.;12:50;75;190;30;CI01;CI10;28/07/2024;CA02, CA04, CA07;Ingresada;Montevideo - Río de Janeiro por Zulu Fly (ZL1502);RV16.jpeg;(Sin video);;6
+
+RV17;US09;IB3009;Tiempo estimado de vuelo es de 1 hora y 40 minutos.;14:55;140;250;20;CI05;CI11;20/07/2024;CA01, CA03, CA07;Confirmada;Barcelona - Sevilla por Iberia (IB3009);RV17.jpeg;(Sin video);,7
+

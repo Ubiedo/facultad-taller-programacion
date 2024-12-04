@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+
+.imagen {
+    width: 100%; 
+    object-fit: cover; 
+    border-top-left-radius: 0.25rem; 
+    border-top-right-radius: 0.25rem; 
+}
+
+.card {
+            position: relative;
+            width: 350px; 
+            height: 400px; 
+            background-color: #f8f9fa; 
+            margin: 0 auto; 
+            overflow: hidden; 
+        	border: 1px solid #ced4da;
+        	cursor: pointer;
+        }
+.card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+        }
+
+.triangle-descuento {
+	position: absolute;
+	bottom: 0; 
+	right: 0; 
+ 	width: 60px; 
+	height: 60px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white; 
+	font-size: 18px; 
+	font-weight: bold;
+	z-index: 1;
+}
+
+.triangle-descuento::after {
+ 	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 110px solid transparent; 
+	border-bottom: 110px solid #6f2c91; 
+	bottom: 0; 
+	right: 0; 
+	z-index: -1;
+}

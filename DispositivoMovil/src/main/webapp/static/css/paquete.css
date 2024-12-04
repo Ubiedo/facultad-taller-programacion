@@ -1,0 +1,82 @@
+.package-container {
+ 		padding: 20px; 
+        border-radius: 8px;
+        margin-top: 50px;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+
+.package-title {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: rgb(0, 0, 0); 
+}
+
+.package-info {
+    font-size: 1rem; 
+    color: #6c757d; 
+    margin-bottom: 8px; 
+    display: flex;
+    margin-top: 15px;
+}
+
+.package-info span {
+    color: #343a40; 
+    margin-left: 10px;
+}
+
+.imagen{
+	 width: 100%;
+     max-width: 550px;
+}
+
+.costo-sin-desc {
+    font-size: 0.9rem;
+    color: #6c757d !important;
+    text-decoration: line-through;
+	margin-bottom: -12px ;
+}
+.costo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1px ;
+}
+
+.discount {
+    color: #28a745 !important; 
+    margin-left: 10px; 
+}
+.imagen-ruta {
+    width: 50px; 
+    margin-right: 5px; 
+}
+
+.btnNoDisponible {
+	display: none;
+    color:red;
+}
+.btnComprar{
+	display: none; 	
+}
+#btnComprar:disabled {
+    background-color: #ccc;  
+    color: #666;             
+    border-color: #ccc;      
+}
+
+.link{
+	text-decoration: underline;
+	margin-left: 10px;
+}
+
+[data-bs-theme="dark"] .package-info {
+    color: #c0c0c0; 
+}
+
+[data-bs-theme="dark"] .package-info span{
+    color: white; 
+}
+[data-bs-theme="dark"] .package-title{
+    color: white; 
+}

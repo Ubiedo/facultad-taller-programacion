@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+		.container {
+            background-color: #f8f9fa; 
+            border-radius: 8px; 
+            padding: 20px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            margin-top: 30px; 
+        }
+        
+        [data-bs-theme = "dark"] .container{
+                    background-color: rgb(44,44,44); 
+            border-radius: 8px; 
+            padding: 20px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            margin-top: 30px; 
+        }
+
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 750px; 
+                margin: auto; 
+            }
+        }

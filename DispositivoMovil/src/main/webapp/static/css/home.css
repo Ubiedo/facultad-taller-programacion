@@ -1,0 +1,87 @@
+.card {
+	border-radius: 0px;
+    border: none;
+    width: 100%;
+    height: 25vh; /* Mantiene la altura que has especificado */
+    background-color: #f0f0f0; /* Solo como ejemplo, ajusta el color según sea necesario */
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Ajusta el espacio entre los elementos */
+    list-style: none;
+    padding: 0;
+}
+
+.card-item {
+    flex: 1 1 20%; /* Hace que cada item ocupe el 30% del ancho, ajusta según sea necesario */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item div {
+    text-align: center;
+    align-items: center;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center; /* Centra los ítems horizontalmente */
+    align-items: center; /* Centra los ítems verticalmente */
+    gap: 4em; /* Espacio entre los íconos, ajusta según sea necesario */
+    padding: 4em .5em .5em .5em; /* Añade padding para separación del contenedor */
+}
+
+.icon-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-start; /* Empuja la imagen hacia la derecha dentro del li */
+    flex: 1;
+    margin-left: 4.5em;
+}
+
+.elemento {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 0px;
+}
+
+.content{
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+    opacity: .75;
+    transition: box-shadow  0.3s ease;
+    transition: opacity 0.3s ease;
+    height: fit-content;
+}
+
+.content:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,.5);
+    opacity: 1;
+}
+
+.imagen {
+    width: 100%;
+    height: 86vh;
+    object-fit: cover;
+}
+
+/* Media query para dispositivos más pequeños (por ejemplo, pantallas de menos de 768px) */
+@media (max-width: 768px) {
+    .imagen {
+        width: auto;
+        height: 100vh; /* Ajusta la altura para pantallas pequeñas */
+        object-fit: cover; /* Cambia a 'contain' para mostrar toda la imagen sin recortar */
+    }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <display-name>DispositivoMovil</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Usuarios</display-name>
+    <servlet-name>Usuarios</servlet-name>
+    <servlet-class>servlets.Usuarios</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Usuarios</servlet-name>
+    <url-pattern>/Usuarios</url-pattern>
+    <url-pattern>/Usuarios/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Buscar</display-name>
+    <servlet-name>Buscar</servlet-name>
+    <servlet-class>servlets.Buscar</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Buscar</servlet-name>
+    <url-pattern>/Buscar</url-pattern>
+  </servlet-mapping>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/errores/404.jsp</location>
+</error-page>
+<error-page>
+    <error-code>500</error-code>
+    <location>/errores/500.jsp</location>
+</error-page>
+<error-page>
+    <error-code>400</error-code>
+    <location>/errores/400.jsp</location>
+</error-page>
+<error-page>
+    <error-code>403</error-code>
+    <location>/errores/403.jsp</location>
+</error-page>
+</web-app>

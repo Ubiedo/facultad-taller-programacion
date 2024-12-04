@@ -1,0 +1,57 @@
+@charset "UTF-8";
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+            overflow: hidden;
+        }
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+        }
+        .card img {
+            border-radius: 10px 10px 0 0;
+        }
+        .card-body {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        
+        [data-bs-theme="dark"] .card-body{
+        background-color: rgb(44,44,44);
+        }
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .flight-info {
+            font-size: 1rem;
+            color: #6c757d;
+            margin-bottom: 8px;
+        }
+        
+        [data-bs-theme="dark"] .flight-info{
+        	            font-size: 1rem;
+            color: white;
+            margin-bottom: 8px;
+        }
+        .flight-info span {
+            font-weight: bold;
+            color: #343a40;
+        }
+        
+        [data-bs-theme="dark"] .flight-info span {
+            font-weight: bold;
+            color: white;
+        }
+        
+        aside{
+        background-color: rgb(238, 238, 238);
+        }
+        
+        [data-bs-theme="dark"] aside{
+        background-color:rgb(44,44,44);
+        }
+        a {
+            text-decoration: none;
+        }

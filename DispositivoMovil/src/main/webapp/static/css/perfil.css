@@ -1,0 +1,73 @@
+/*ul.list-group.list-group-striped li:nth-of-type(odd){
+    background: rgb(230, 230, 230);
+}
+ul.list-group.list-group-striped li:nth-of-type(even){
+    background: rgb(255, 255, 255);
+}
+ul.list-group.list-group-hover li:hover{
+    background: rgb(192, 192, 192);
+}*/
+
+.nav-item-perfil{
+    background-color: #f8fffc;
+    color: black
+}
+
+.nav-item-perfil.active{
+    background-color: #ffffff;
+    color: black
+}
+
+
+.custom-header {
+    background-color: #ddede5; 
+    color: rgb(0, 0, 0);
+}
+
+.custom-container {
+    background-color: #ebebeb; 
+    color: rgb(0, 0, 0); 
+}
+
+.custom-body {
+    background-color: #c4d4cc;
+    color: rgb(0, 0, 0);
+}
+
+.image-container2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-container2 img {
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+
+  
+
+  .border-imagen {
+    border-color: #bccac3;
+    border-width: 3rem;
+  }
+
+  .ui-datepicker {
+    z-index: 1051; 
+  }
+  
+  .form-floating {
+    z-index: 1; 
+  }
+
+  
+  .list-item-border {
+    border: 1px solid rgb(0, 0, 0); /* Color suave para el borde */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    margin-bottom: 2px; /* Espacio entre los elementos */
+    margin-top: 2px;
+  }

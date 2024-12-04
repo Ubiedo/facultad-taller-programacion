@@ -1,0 +1,33 @@
+.option .btn {
+    outline: none;
+    border-top: 0pc;
+    border-left: 0pc;
+    border-right: 0pc;
+    border-radius: 0px;
+    border-bottom: 3px solid;
+    border-color: rgba(200, 200, 200, .3) !important;
+}
+
+.option .btn:hover {
+    border-color: rgba(var(--bs-success-rgb), 0.3) !important;
+}
+
+.option .active {
+    border-color: rgba(var(--bs-success-rgb), 1) !important;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.options, .dropdown {
+    width: 50%;
+    margin: 0px;
+}
+
+.largo-100 {
+    width: 100%;
+    margin: 0px;
+}

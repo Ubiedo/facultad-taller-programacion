@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>Vuelos</display-name>
+    <servlet-name>Vuelos</servlet-name>
+    <servlet-class>servlets.Vuelos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Vuelos</servlet-name>
+    <url-pattern>/Vuelos</url-pattern>
+    <url-pattern>/Vuelos/*</url-pattern>
+  </servlet-mapping>
+  <display-name>ServidorWeb2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Rutas</display-name>
+    <servlet-name>Rutas</servlet-name>
+    <servlet-class>servlets.Rutas</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Rutas</servlet-name>
+    <url-pattern>/Rutas</url-pattern>
+    <url-pattern>/Rutas/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Usuarios</display-name>
+    <servlet-name>Usuarios</servlet-name>
+    <servlet-class>servlets.Usuarios</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Usuarios</servlet-name>
+    <url-pattern>/Usuarios</url-pattern>
+    <url-pattern>/Usuarios/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>HomeSearch</display-name>
+    <servlet-name>HomeSearch</servlet-name>
+    <servlet-class>servlets.HomeSearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeSearch</servlet-name>
+    <url-pattern>/HomeSearch</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Paquetes</display-name>
+    <servlet-name>Paquetes</servlet-name>
+    <servlet-class>servlets.Paquetes</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Paquetes</servlet-name>
+    <url-pattern>/Paquetes</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>paquetes</display-name>
+    <servlet-name>paquetes</servlet-name>
+    <servlet-class>paquetes</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>paquetes</servlet-name>
+    <url-pattern>/paquetes</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>de</display-name>
+    <servlet-name>de</servlet-name>
+    <servlet-class>servlets.de</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>de</servlet-name>
+    <url-pattern>/de</url-pattern>
+  </servlet-mapping>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/errores/404.jsp</location>
+</error-page>
+<error-page>
+    <error-code>500</error-code>
+    <location>/errores/500.jsp</location>
+</error-page>
+<error-page>
+    <error-code>400</error-code>
+    <location>/errores/400.jsp</location>
+</error-page>
+<error-page>
+    <error-code>403</error-code>
+    <location>/errores/403.jsp</location>
+</error-page>
+</web-app>

@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+[data-bs-theme="dark"] .header {
+    background-color: rgb(3,22,51);
+    color: white;  
+}
+
+
+
+.header {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 1px; /* Reduce el tamaño de la fuente */
+    background-color: rgb(238, 238, 238);
+    color: black;
+    color: #1d72b8;
+}
+
+[data-bs-theme="dark"].header{
+	background-color: rgb(80, 80, 80);
+}
+
+.titulo h1 {
+    font-size: 2.5rem; 
+    font-weight: 600;
+    color: #1d72b8;
+}
+
+[data-bs-theme="dark"].titulo  {
+	background-color: rgb(80, 80, 80);
+
+}
+
+.datos {
+    font-size: 1.2rem;
+    flex: 1;
+    display: flex;
+}
+
+
+.datos strong {
+    margin-right: 10px; 
+}
+
+.contenedor-datos {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+[data-bs-theme="dark"] .contenedor-datos {
+    padding: 20px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+}
+
+.card {
+    border-radius: 8px;
+    margin-top: 50px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    padding: 20px;
+}
+
+.fecha-hora {
+    display: flex;
+    gap: 20px; 
+}
+
+.pasajes-asientos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.item {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+.header a {
+    font-size: 1rem; 
+    color: #1d72b8;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #0f5a9e;
+}
