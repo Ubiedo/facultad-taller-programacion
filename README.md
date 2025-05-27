@@ -1,32 +1,72 @@
-VOLANDO.UY
+# Volando.uy - Taller programación – Facultad de Ingeniería, UDELAR
 
- Plataforma de ofertas de vuelos a través de Internet.
+Este repositorio contiene la web y aplicacion de escritorio pedida para la materia **Taller de programación** de la Facultad de Ingeniería de la Universidad de la República (UDELAR).
 
-Servidor Web:
- - Web:
-    - para agruegar el header y footer a un html, asi no lo tenemos que copiar y pegar en cada archivo, es solo agregar el link a header.js y footer.js, y luego en el body poner las etiquetas:
-        - < header-component ></ header-component >
-        - < footer-component ></ footer-component >
-        
- Estacion de trabajo:
- - Menu Bar:
-    - Sistema:
-        - Comprar paquetes
-        - Reservar vuelos
-        - Salir (cierra app)
-    - Crear:
-        - Nuev@ ______ (los casos de uso alta de ..., nuevo paquete, los que creen contenido)
-    - Editar:
-        - Editar _____ (los de modificar archivos)
-        - Agregar a __ (los que sean agregar cosas a instancias)
-    - Ver:
-        - consultar __ (los que sean consultar o que pidan informacion)
-        - ...
-    - ...
+**Tutor:** Martin Rubio
 
-    Bibliotecas externas que se utilizan: 
-    - OpenCSV versión 5.9 (descargar archivo JAR en: (https://mvnrepository.com/artifact/com.opencsv/opencsv/5.9))
-    - Apache Commons Langs versión 3.17.0 (descargar archivo JAR en: https://mvnrepository.com/artifact/org.apache.commons/commons-lang3/3.17.0) 
-    
-    Agregar los archivos JAR: 
-    - click derecho en el proyecto > "Build Path" > Libraries > Classpath > Add JARs (si están guardados en una carpeta dentro del proyecto) o Add External JARs (en caso contrario) y navegar hasta el archivo
+## 📂 Contenido
+
+Este repositorio contiene la aplicacion pedida para la tarea, organizadas en dispositivo movil, servidor web, estacion de trabajo:
+
+- **Dispositivo movil**: Web de acceso especifico para dispositivos moviles, donde usuarios pueden consultar sobre sus vuelos:
+  - Aplicacion Web.
+  - Servlets.
+  - XML.
+- **Servidor web 2**: Plataforma de ofertas de vuelos a través de internet:
+  - Aplicacion Web.
+  - Servlets.
+  - XML.
+- **Estacion de trabajo**: Aplicacion de escritorio para gestion de sistema:
+  - Publicar e interactuar con los objetos del sistema.
+  - Publicar el servidor web.
+  - Logica de negocio.
+  - Tests de la logica de negocio.
+
+> El código está desarrollado principalmente en **Java**, con algunos módulos webs en **CSS** y **JavaScript**.  
+
+## 💻 Tecnologías utilizadas
+
+- Lenguajes: Java, CSS, JavaScript
+- Frameworks y herramientas: Jakarta EE, Apache Tomcat, JUnit, Bootstrap
+- Entorno de desarrollo: Eclipse IDE
+- Sistema operativo: multiplataforma (desarrollado en Linux, compatible con Windows y MacOS)
+
+## 🐧 Requisitos
+
+Para compilar y ejecutar este proyecto, se recomienda tener instalado:
+- Java JDK 17 (o compatible)
+- Eclipse IDE for Enterprise Java and Web Developers
+- Apache Tomcat (versión 9 o superior)
+- Las bibliotecas necesarias configuradas en el classpath
+
+### 📚 Bibliotecas externas utilizadas
+
+- **OpenCSV** versión 5.9
+- [Descargar JAR](https://mvnrepository.com/artifact/com.opencsv/opencsv/5.9)
+
+- **Apache Commons Lang** versión 3.17.0
+- [Descargar JAR](https://mvnrepository.com/artifact/org.apache.commons/commons-lang3/3.17.0)
+
+### 🔧 Agregar los archivos JAR en Eclipse
+
+1. Hacer clic derecho sobre el proyecto → **Build Path** → **Configure Build Path**
+2. Ir a la pestaña **Libraries**
+3. Elegir una de estas opciones:
+   - **Add JARs** (si los archivos están dentro del proyecto)
+   - **Add External JARs** (si están fuera del proyecto)
+4. Navegar hasta el archivo `.jar` correspondiente y agregarlo.
+
+## ▶️ Cómo compilar y ejecutar
+
+1. Clonar o descargar el repositorio.
+2. Abrir el proyecto en Eclipse como un proyecto Java o Dynamic Web Project.
+3. Configurar el servidor Tomcat desde Eclipse.
+4. Ejecutar la aplicación desde el IDE o desplegar en Tomcat.
+
+## 👤 Autores
+
+- [Federico Javier González Ubiedo](https://github.com/Ubiedo)
+- Juan Pablo Otero
+- Joaquin Javier Vila Pacheco
+- Valentina Beron
+- Manuel Martinez
