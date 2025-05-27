@@ -1,4 +1,4 @@
-# Volando.uy - Taller programación – Facultad de Ingeniería, UDELAR
+# Volando.uy – Taller programación – Facultad de Ingeniería, UDELAR
 
 Este repositorio contiene la web y aplicacion de escritorio pedida para la materia **Taller de programación** de la Facultad de Ingeniería de la Universidad de la República (UDELAR).
 
