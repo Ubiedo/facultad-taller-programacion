@@ -39,7 +39,7 @@ Para compilar y ejecutar este proyecto, se recomienda tener instalado:
 - Apache Tomcat (versión 9 o superior)
 - Las bibliotecas necesarias configuradas en el classpath
 
-### 📚 Bibliotecas externas utilizadas
+## 📚 Bibliotecas externas utilizadas
 
 - **OpenCSV** versión 5.9
 - [Descargar JAR](https://mvnrepository.com/artifact/com.opencsv/opencsv/5.9)
@@ -47,7 +47,7 @@ Para compilar y ejecutar este proyecto, se recomienda tener instalado:
 - **Apache Commons Lang** versión 3.17.0
 - [Descargar JAR](https://mvnrepository.com/artifact/org.apache.commons/commons-lang3/3.17.0)
 
-### 🔧 Agregar los archivos JAR en Eclipse
+## 🔧 Agregar los archivos JAR en Eclipse
 
 1. Hacer clic derecho sobre el proyecto → **Build Path** → **Configure Build Path**
 2. Ir a la pestaña **Libraries**
