@@ -22,11 +22,11 @@ Este repositorio contiene la aplicacion pedida para la tarea, organizadas en dis
   - Logica de negocio.
   - Tests de la logica de negocio.
 
-> El código está desarrollado principalmente en **Java**, con algunos módulos webs en **CSS** y **JavaScript**.  
+> El código está desarrollado principalmente en **Java**, con algunos módulos webs en **HTML**, **CSS** y **JavaScript**.  
 
 ## 💻 Tecnologías utilizadas
 
-- Lenguajes: Java, CSS, JavaScript
+- Lenguajes: Java, CSS, JavaScript, HTML
 - Frameworks y herramientas: Jakarta EE, Apache Tomcat, JUnit, Bootstrap
 - Entorno de desarrollo: Eclipse IDE
 - Sistema operativo: multiplataforma (desarrollado en Linux, compatible con Windows y MacOS)
